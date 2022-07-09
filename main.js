@@ -45,7 +45,7 @@ function draw() {
     if(scoreleftWrist > 0.2){
         circle(leftWristX,leftWristY,20);
         harry_potter_theme_song.stop();
-        if(song_name == false){
+        if(song_peter_pan_song == false){
             peter_pan_song.play();
         }
         else{
